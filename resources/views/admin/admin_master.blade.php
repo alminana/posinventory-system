@@ -124,6 +124,9 @@
     break; 
  }
  @endif 
+
+
+ 
 </script>
          <!-- Required datatable js -->
          <script src="{{ asset('backend/assets/libs/datatables.net/js/jquery.dataTables.min.js') }}"></script>
@@ -132,6 +135,13 @@
             <!-- Datatable init js -->
         <script src="{{ asset('backend/assets/js/pages/datatables.init.js') }}"></script>
         <script src="{{ asset('backend/assets/js/validate.min.js') }}"></script>
+        <script src="{{ asset('backend/assets/js/code.js') }}"></script>
+
+
+        <script src="{{ asset('backend/assets/js/handlebars.js') }}"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js" ></script>
+
     </body>
 
 </html>
